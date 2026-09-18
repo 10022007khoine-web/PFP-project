@@ -1,4 +1,4 @@
-#Phát
+#Phat
 class Result:
     def __init__(self, student_id, course_id, course_name, semester, credits, grade_fe:float, grade_re: float=None):
         self.student_id = student_id
