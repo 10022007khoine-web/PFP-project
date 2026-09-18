@@ -29,3 +29,10 @@ class display:
                 return int(input(code))
             except ValueError:
                 print("(!) Invalid input. Please enter a valid integer.")
+    def read_float(hey, code: str) -> float:
+        #Function to read a float input from the user, ensuring it's a valid float.
+        while True:
+            try:
+                return float(input(code))
+            except ValueError:
+                print("(!) Invalid input. Please enter a valid float.")

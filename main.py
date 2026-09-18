@@ -33,8 +33,8 @@ def main():
                     course_name = dis.read_str("Enter course name: ")
                     semester = dis.read_str("Enter semester (EX: Fall2026): ")
                     credits = dis.read_int("Enter credits: ")
-                    grade_FE = dis.read_str("Enter grade FE (ex: 6.7 or blank if not yet graded): ")
-                    grade_RE = dis.read_str("Enter grade PE (ex: 3.6 or blank if not yet graded): ")
+                    grade_FE = dis.read_float("Enter grade FE (ex: 6.7 or blank if not yet graded): ")
+                    grade_RE = dis.read_float("Enter grade PE (ex: 3.6 or blank if not yet graded): ")
                     status_ok = dis.read_str("Enter status course (Pass/Fail): ")
                 else:
                     print("(!) Student not found.")
@@ -46,7 +46,7 @@ def main():
                     phone = dis.read_str("Enter new phone student: ")
                     class_name = dis.read_str("Enter new class student: ")
                     email = dis.read_str("Enter new email student: ")
-                    status = dis.read_str("Enter new status student ( Active / Inactive / Graduated): ")
+                    status = dis.read_str("Enter new status student ( active / inactive / graduated): ")
                 else:
                     print("(!) Student not found.")
             elif pick == 4:
@@ -55,8 +55,8 @@ def main():
                 checkid = dis.read_str("Enter id student: ")
                 checkcourseid = dis.read_str("Enter id course: ")
                 if checkid == student_id and checkcourseid == course_id:
-                    grade_FE = dis.read_str("Enter new grade FE (ex: 6.7 or blank if not yet graded): ")
-                    grade_RE = dis.read_str("Enter new grade PE (ex: 3.6 or blank if not yet graded): ")
+                    grade_FE = dis.read_float("Enter new grade FE (ex: 6.7 or blank if not yet graded): ")
+                    grade_RE = dis.read_float("Enter new grade PE (ex: 3.6 or blank if not yet graded): ")
                 else:
                     print("(!) Student or course not found.")
             elif pick == 5:
