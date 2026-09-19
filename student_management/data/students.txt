@@ -1,0 +1,9 @@
+# student_id|full_name|date_of_birth|gender|class_name|phone|email|status
+SE00001|Nguyen Van An|15/03/2005|Male|SE1901|0901234567|an.nguyen@fpt.edu.vn|Active
+SE00002|Tran Thi Thao|22/07/2005|Female|SE1901|0912345678|thao.tran@fpt.edu.vn|Active
+SE00003|Le Minh Chau|09/11/2004|Female|IT1902|0923456789|chau.le@fpt.edu.vn|Active
+SE00004|Pham Quoc Bao|30/01/2005|Male|IT1902|0934567890|bao.pham@fpt.edu.vn|Inactive
+SE00005|Hoang Thi Lan|18/05/2003|Female|AI1903|0945678901|lan.hoang@fpt.edu.vn|Graduated
+SE00006|Vo Duc Minh|12/09/2005|Male|AI1903|0956789012|minh.vo@fpt.edu.vn|Active
+SE00007|Dang Thu Ha|03/12/2005|Female|SE1901|0967890123|ha.dang@fpt.edu.vn|Active
+SE00008|Bui Gia Huy|27/02/2004|Male|IT1902|0978901234|huy.bui@fpt.edu.vn|Active
